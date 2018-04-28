@@ -20,6 +20,7 @@ public class WebServiceRequestSettings
 | [DisableKeepAlive](WebServiceRequestSettings/DisableKeepAlive.md) { get; set; } | True if the connection should be closed after this web service request is made. |
 | [ErrorReporter](WebServiceRequestSettings/ErrorReporter.md) { get; set; } | Called when an error occurs while building a request or handling a response. |
 | [Host](WebServiceRequestSettings/Host.md) { get; set; } | Gets or sets the host. |
+| [StartTrace](WebServiceRequestSettings/StartTrace.md) { get; set; } | A Func that, if set, is called to start a trace when a web request begins; its return value will be disposed when the web request ends. |
 | [UserAgent](WebServiceRequestSettings/UserAgent.md) { get; set; } | Gets or sets the user agent. |
 | [Clone](WebServiceRequestSettings/Clone.md)() | Clones this instance. |
 
