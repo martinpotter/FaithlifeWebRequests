@@ -34,6 +34,7 @@
 | class [AutoWebServiceRequest&lt;TResponse&gt;](Faithlife.WebRequests.Json/AutoWebServiceRequest-1.md) | A web service request whose response is initialized via reflection. |
 | abstract class [AutoWebServiceResponse](Faithlife.WebRequests.Json/AutoWebServiceResponse.md) | Base class for AutoWebServiceRequest responses. |
 | static class [AutoWebServiceResponseUtility](Faithlife.WebRequests.Json/AutoWebServiceResponseUtility.md) | Utility methods for AutoWebServiceResponse. |
+| class [GenericStatusCodeResponse](Faithlife.WebRequests.Json/GenericStatusCodeResponse.md) | AutoWebServiceRequest responses with an explicitly set status code. |
 | static class [JsonWebResponseUtility](Faithlife.WebRequests.Json/JsonWebResponseUtility.md) | Utility methods for JSON and HttpResponseMessage. |
 | abstract class [JsonWebServiceClientBase](Faithlife.WebRequests.Json/JsonWebServiceClientBase.md) | A base class for common json service clients. |
 | class [JsonWebServiceClientSettings](Faithlife.WebRequests.Json/JsonWebServiceClientSettings.md) | Client settings for JsonWebServiceClientBase |
