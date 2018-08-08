@@ -14,7 +14,7 @@ public abstract class WebServiceRequestBase
 | [AdditionalHeaders](WebServiceRequestBase/AdditionalHeaders.md) { get; set; } | Gets or sets the additional headers. |
 | [AllowsRequestContentCompression](WebServiceRequestBase/AllowsRequestContentCompression.md) { get; set; } | True if the request content compression is allowed. |
 | [Content](WebServiceRequestBase/Content.md) { get; set; } | Gets or sets the content. |
-| [DisableAutoRedirect](WebServiceRequestBase/DisableAutoRedirect.md) { get; set; } | True if HTTP redirects should not be followed automatically. |
+| [DisableAutoRedirect](WebServiceRequestBase/DisableAutoRedirect.md) { get; set; } | True if HTTP redirects should not be followed automatically. If [`GetHttpClient`](WebServiceRequestSettings/GetHttpClient.md) is set, then this property is ignored. |
 | [IfMatch](WebServiceRequestBase/IfMatch.md) { get; set; } | Gets or sets the If-Match header. |
 | [IfModifiedSince](WebServiceRequestBase/IfModifiedSince.md) { get; set; } | Gets or sets if modified since. |
 | [IfNoneMatch](WebServiceRequestBase/IfNoneMatch.md) { get; set; } | Gets or sets the If-None-Match header. |
@@ -23,7 +23,7 @@ public abstract class WebServiceRequestBase
 | [Referer](WebServiceRequestBase/Referer.md) { get; set; } | Gets or sets the value of the Referer HTTP header. |
 | [RequestUri](WebServiceRequestBase/RequestUri.md) { get; } | Gets the request URI. |
 | [Settings](WebServiceRequestBase/Settings.md) { get; set; } | Gets or sets the settings. |
-| [Timeout](WebServiceRequestBase/Timeout.md) { get; set; } | Gets or sets the timeout. |
+| [Timeout](WebServiceRequestBase/Timeout.md) { get; set; } | Gets or sets the timeout. If [`GetHttpClient`](WebServiceRequestSettings/GetHttpClient.md) is set, then this property is ignored. |
 | [UserAgent](WebServiceRequestBase/UserAgent.md) { get; set; } | Gets or sets the value of the User-agent HTTP header. |
 
 ## Protected Members

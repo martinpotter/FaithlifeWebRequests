@@ -1,6 +1,6 @@
 # WebServiceRequestBase.Timeout property
 
-Gets or sets the timeout.
+Gets or sets the timeout. If [`GetHttpClient`](../WebServiceRequestSettings/GetHttpClient.md) is set, then this property is ignored.
 
 ```csharp
 public TimeSpan? Timeout { get; set; }

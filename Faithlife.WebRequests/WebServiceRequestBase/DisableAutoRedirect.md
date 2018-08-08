@@ -1,6 +1,6 @@
 # WebServiceRequestBase.DisableAutoRedirect property
 
-True if HTTP redirects should not be followed automatically.
+True if HTTP redirects should not be followed automatically. If [`GetHttpClient`](../WebServiceRequestSettings/GetHttpClient.md) is set, then this property is ignored.
 
 ```csharp
 public bool DisableAutoRedirect { get; set; }
