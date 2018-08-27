@@ -3,7 +3,8 @@
 Sets the InputSettings of the WebServiceRequest.
 
 ```csharp
-public static JsonWebServiceRequest<TResponseContent> WithJsonSettings<TResponseContent>(this JsonWebServiceRequest<TResponseContent> request, JsonSettings settings)
+public static JsonWebServiceRequest<TResponseContent> WithJsonSettings<TResponseContent>(
+    this JsonWebServiceRequest<TResponseContent> request, JsonSettings settings)
 ```
 
 | parameter | description |

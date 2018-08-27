@@ -3,7 +3,8 @@
 Initializes a new instance of the [`WebServiceResponse`](../WebServiceResponse.md) class.
 
 ```csharp
-public WebServiceResponse(WebServiceRequest request, HttpStatusCode statusCode, HttpHeaders headers, HttpContent content)
+public WebServiceResponse(WebServiceRequest request, HttpStatusCode statusCode, 
+    HttpHeaders headers, HttpContent content)
 ```
 
 | parameter | description |

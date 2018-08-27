@@ -3,8 +3,8 @@
 Creates an exception for the specified response, reading a content preview from the response.
 
 ```csharp
-public static Task<WebServiceException> CreateWebServiceExceptionWithContentPreviewAsync
-    (HttpResponseMessage response, string message = null, Exception innerException = null)
+public static Task<WebServiceException> CreateWebServiceExceptionWithContentPreviewAsync(
+    HttpResponseMessage response, string message = null, Exception innerException = null)
 ```
 
 | parameter | description |

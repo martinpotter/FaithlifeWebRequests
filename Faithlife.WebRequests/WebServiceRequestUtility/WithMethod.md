@@ -3,7 +3,8 @@
 Sets the Method of the WebServiceRequest.
 
 ```csharp
-public static TWebServiceRequest WithMethod<TWebServiceRequest>(this TWebServiceRequest request, string method)
+public static TWebServiceRequest WithMethod<TWebServiceRequest>(this TWebServiceRequest request, 
+    string method)
     where TWebServiceRequest : WebServiceRequestBase
 ```
 

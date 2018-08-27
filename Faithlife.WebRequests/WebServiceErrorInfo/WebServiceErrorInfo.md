@@ -3,7 +3,8 @@
 Creates a web service error.
 
 ```csharp
-public WebServiceErrorInfo(WebServiceErrorKind kind, Exception exception, WebServiceRequestBase request)
+public WebServiceErrorInfo(WebServiceErrorKind kind, Exception exception, 
+    WebServiceRequestBase request)
 ```
 
 ## See Also

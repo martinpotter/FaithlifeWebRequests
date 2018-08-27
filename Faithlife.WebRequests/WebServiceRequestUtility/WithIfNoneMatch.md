@@ -3,8 +3,8 @@
 Sets the IfNoneMatch of the WebServiceRequest.
 
 ```csharp
-public static TWebServiceRequest WithIfNoneMatch<TWebServiceRequest>(this TWebServiceRequest request, 
-    string eTag)
+public static TWebServiceRequest WithIfNoneMatch<TWebServiceRequest>(
+    this TWebServiceRequest request, string eTag)
     where TWebServiceRequest : WebServiceRequestBase
 ```
 

@@ -3,7 +3,8 @@
 Sets the Method of the WebServiceRequest to "PATCH".
 
 ```csharp
-public static TWebServiceRequest WithPatchMethod<TWebServiceRequest>(this TWebServiceRequest request)
+public static TWebServiceRequest WithPatchMethod<TWebServiceRequest>(
+    this TWebServiceRequest request)
     where TWebServiceRequest : WebServiceRequestBase
 ```
 

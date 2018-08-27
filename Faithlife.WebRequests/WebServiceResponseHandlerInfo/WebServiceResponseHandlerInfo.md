@@ -3,7 +3,8 @@
 Initializes a new instance of the [`WebServiceResponseHandlerInfo`](../WebServiceResponseHandlerInfo-1.md) class.
 
 ```csharp
-protected WebServiceResponseHandlerInfo(HttpResponseMessage webResponse, CancellationToken cancellationToken)
+protected WebServiceResponseHandlerInfo(HttpResponseMessage webResponse, 
+    CancellationToken cancellationToken)
 ```
 
 | parameter | description |

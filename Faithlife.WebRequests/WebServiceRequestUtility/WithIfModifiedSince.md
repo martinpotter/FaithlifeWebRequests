@@ -3,8 +3,8 @@
 Sets the IfModifiedSince of the WebServiceRequest.
 
 ```csharp
-public static TWebServiceRequest WithIfModifiedSince<TWebServiceRequest>(this TWebServiceRequest request, 
-    DateTime? ifModifiedSince)
+public static TWebServiceRequest WithIfModifiedSince<TWebServiceRequest>(
+    this TWebServiceRequest request, DateTime? ifModifiedSince)
     where TWebServiceRequest : WebServiceRequestBase
 ```
 

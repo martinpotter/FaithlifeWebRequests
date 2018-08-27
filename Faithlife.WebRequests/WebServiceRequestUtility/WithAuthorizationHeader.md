@@ -3,8 +3,8 @@
 Add authorization header to [`WebServiceRequestBase`](../WebServiceRequestBase.md)
 
 ```csharp
-public static TWebServiceRequest WithAuthorizationHeader<TWebServiceRequest>(this TWebServiceRequest request, 
-    string authorizationHeader)
+public static TWebServiceRequest WithAuthorizationHeader<TWebServiceRequest>(
+    this TWebServiceRequest request, string authorizationHeader)
     where TWebServiceRequest : WebServiceRequestBase
 ```
 

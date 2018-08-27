@@ -3,7 +3,8 @@
 Sets the IfMatch of the WebServiceRequest.
 
 ```csharp
-public static TWebServiceRequest WithIfMatch<TWebServiceRequest>(this TWebServiceRequest request, string eTag)
+public static TWebServiceRequest WithIfMatch<TWebServiceRequest>(this TWebServiceRequest request, 
+    string eTag)
     where TWebServiceRequest : WebServiceRequestBase
 ```
 

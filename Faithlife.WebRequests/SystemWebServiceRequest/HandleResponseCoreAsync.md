@@ -3,7 +3,8 @@
 Overrides HandleResponseCoreAsync.
 
 ```csharp
-protected override Task<bool> HandleResponseCoreAsync(WebServiceResponseHandlerInfo<HttpResponseMessage> info)
+protected override Task<bool> HandleResponseCoreAsync(
+    WebServiceResponseHandlerInfo<HttpResponseMessage> info)
 ```
 
 ## See Also

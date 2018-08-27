@@ -3,8 +3,8 @@
 Sets the Content of the WebServiceRequest.
 
 ```csharp
-public static TWebServiceRequest WithJsonContent<TWebServiceRequest, TContentValue>(this TWebServiceRequest request, 
-    TContentValue contentValue)
+public static TWebServiceRequest WithJsonContent<TWebServiceRequest, TContentValue>(
+    this TWebServiceRequest request, TContentValue contentValue)
     where TWebServiceRequest : WebServiceRequestBase
 ```
 
@@ -32,8 +32,8 @@ The request.
 Sets the Content of the WebServiceRequest.
 
 ```csharp
-public static TWebServiceRequest WithJsonContent<TWebServiceRequest, TContentValue>(this TWebServiceRequest request, 
-    TContentValue contentValue, JsonSettings settings)
+public static TWebServiceRequest WithJsonContent<TWebServiceRequest, TContentValue>(
+    this TWebServiceRequest request, TContentValue contentValue, JsonSettings settings)
     where TWebServiceRequest : WebServiceRequestBase
 ```
 

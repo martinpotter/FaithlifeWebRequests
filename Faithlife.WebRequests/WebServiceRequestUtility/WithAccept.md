@@ -3,7 +3,8 @@
 Sets the Accept of the WebServiceRequest.
 
 ```csharp
-public static TWebServiceRequest WithAccept<TWebServiceRequest>(this TWebServiceRequest request, string accept)
+public static TWebServiceRequest WithAccept<TWebServiceRequest>(this TWebServiceRequest request, 
+    string accept)
     where TWebServiceRequest : WebServiceRequestBase
 ```
 

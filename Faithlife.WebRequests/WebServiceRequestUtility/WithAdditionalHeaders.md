@@ -3,8 +3,8 @@
 Adds to the Additional Headers of the WebServiceRequest.
 
 ```csharp
-public static TWebServiceRequest WithAdditionalHeaders<TWebServiceRequest>(this TWebServiceRequest request, 
-    WebHeaderCollection headers)
+public static TWebServiceRequest WithAdditionalHeaders<TWebServiceRequest>(
+    this TWebServiceRequest request, WebHeaderCollection headers)
     where TWebServiceRequest : WebServiceRequestBase
 ```
 

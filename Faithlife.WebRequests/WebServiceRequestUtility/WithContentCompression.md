@@ -3,7 +3,8 @@
 Allows request content compression.
 
 ```csharp
-public static TWebServiceRequest WithContentCompression<TWebServiceRequest>(this TWebServiceRequest request)
+public static TWebServiceRequest WithContentCompression<TWebServiceRequest>(
+    this TWebServiceRequest request)
     where TWebServiceRequest : WebServiceRequestBase
 ```
 
@@ -29,8 +30,8 @@ The request.
 Allows request content compression.
 
 ```csharp
-public static TWebServiceRequest WithContentCompression<TWebServiceRequest>(this TWebServiceRequest request, 
-    bool isEnabled)
+public static TWebServiceRequest WithContentCompression<TWebServiceRequest>(
+    this TWebServiceRequest request, bool isEnabled)
     where TWebServiceRequest : WebServiceRequestBase
 ```
 

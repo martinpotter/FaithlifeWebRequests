@@ -3,8 +3,8 @@
 Sets the ErrorStrategy of the WebServiceRequest.
 
 ```csharp
-public static TWebServiceRequest WithAcceptedStatusCodes<TWebServiceRequest>(this TWebServiceRequest request, 
-    HttpStatusCode[] acceptedStatusCodes)
+public static TWebServiceRequest WithAcceptedStatusCodes<TWebServiceRequest>(
+    this TWebServiceRequest request, HttpStatusCode[] acceptedStatusCodes)
     where TWebServiceRequest : WebServiceRequest
 ```
 
@@ -31,8 +31,8 @@ The request.
 Sets the ErrorStrategy of the WebServiceRequest.
 
 ```csharp
-public static TWebServiceRequest WithAcceptedStatusCodes<TWebServiceRequest>(this TWebServiceRequest request, 
-    IEnumerable<HttpStatusCode> acceptedStatusCodes)
+public static TWebServiceRequest WithAcceptedStatusCodes<TWebServiceRequest>(
+    this TWebServiceRequest request, IEnumerable<HttpStatusCode> acceptedStatusCodes)
     where TWebServiceRequest : WebServiceRequest
 ```
 

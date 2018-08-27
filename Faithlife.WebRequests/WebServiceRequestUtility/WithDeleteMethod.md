@@ -3,7 +3,8 @@
 Sets the Method of the WebServiceRequest to "DELETE".
 
 ```csharp
-public static TWebServiceRequest WithDeleteMethod<TWebServiceRequest>(this TWebServiceRequest request)
+public static TWebServiceRequest WithDeleteMethod<TWebServiceRequest>(
+    this TWebServiceRequest request)
     where TWebServiceRequest : WebServiceRequestBase
 ```
 

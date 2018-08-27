@@ -3,7 +3,9 @@
 Adds to the Handlers of the WebServiceRequest.
 
 ```csharp
-public static WebServiceRequest<TWebServiceResponse> WithHandler<TWebServiceResponse>(this WebServiceRequest<TWebServiceResponse> request, Func<WebServiceResponseHandlerInfo<TWebServiceResponse>, Task<bool>> handler)
+public static WebServiceRequest<TWebServiceResponse> WithHandler<TWebServiceResponse>(
+    this WebServiceRequest<TWebServiceResponse> request, 
+    Func<WebServiceResponseHandlerInfo<TWebServiceResponse>, Task<bool>> handler)
 ```
 
 | parameter | description |
